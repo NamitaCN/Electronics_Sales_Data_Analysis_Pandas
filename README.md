@@ -17,25 +17,25 @@ Steps in the Project
 
 I explored the data to answer the following business questions:
 
-What was the best month for sales?
+- What was the best month for sales?
 Determined which month had the highest sales and the total earnings.
 
-Which city sold the most products?
+- Which city sold the most products?
 Analyzed sales data by city to find the top-performing locations.
 
-What time should we display advertisements to maximize sales?
+- What time should we display advertisements to maximize sales?
 Investigated the time of purchase to find the best times for ads.
 
-What products are most often sold together?
+- What products are most often sold together?
 Identified product pairs frequently bought together.
 
-What product sold the most? Why?
+- What product sold the most? Why?
 Found the best-selling product and explored reasons for its popularity.
 
 3. Methods and Tools Used
    
-Concatenation of CSV files using pd.concat to create a single DataFrame.
-String parsing using .str to create new columns.
-Groupby for aggregate analysis.
-Visualized results using bar charts and line graphs.
-Added labels and titles to graphs for better clarity.
+- Concatenation of CSV files using pd.concat to create a single DataFrame.
+- String parsing using .str to create new columns.
+- Groupby for aggregate analysis.
+- Visualized results using bar charts and line graphs.
+- Added labels and titles to graphs for better clarity.
