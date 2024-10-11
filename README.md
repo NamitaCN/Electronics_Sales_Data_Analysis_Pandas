@@ -1,24 +1,36 @@
 # pandas_data_science_task
-In this project, I used Python Pandas & Python Matplotlib to analyze and answer business questions of 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
+In this project, I used Python Pandas and Python Matplotlib to analyze and answer business questions based on 12 months' worth of sales data from an electronics store.
 
-Started by cleaning the data. Tasks during this section include:
+Data Overview
+The dataset contains hundreds of thousands of purchases.
+The data is broken down by month, product type, cost, purchase address, and more.
+Steps in the Project
+1. Data Cleaning
+Dropped NaN values from the DataFrame.
+Removed rows based on specific conditions.
+Changed data types using functions like to_numeric, to_datetime, and astype.
+2. Data Exploration
+I explored the data to answer the following business questions:
 
-Drop NaN values from DataFrame.
-Removing rows based on a condition.
-Change the type of columns (to_numeric, to_datetime, astype).
-Once I cleaned up the data a bit,  then I moved to the data exploration section. In this section I explored 5 high levels business questions related to the data:
+What was the best month for sales?
+Determined which month had the highest sales and the total earnings.
 
-What was the best month for sales? How much was earned that month?
-Which city sold the most product?
-What time should we display advertisements to maximize the likelihood of customer’s buying product?
+Which city sold the most products?
+Analyzed sales data by city to find the top-performing locations.
+
+What time should we display advertisements to maximize sales?
+Investigated the time of purchase to find the best times for ads.
+
 What products are most often sold together?
-What product sold the most? Why do you think it sold the most?
-To answer these questions, I walked through many different pandas & matplotlib methods. They include:
+Identified product pairs frequently bought together.
 
-Concatenating multiple CSVs together to create a new DataFrame (pd.concat)
-Adding columns
-Parsing cells as strings to make new columns (.str)
-Using the .apply() method
-Using groupby to perform aggregate analysis
-Plotting bar charts and line graphs to visualize our results
-Labeling the graphs
+What product sold the most? Why?
+Found the best-selling product and explored reasons for its popularity.
+
+3. Methods and Tools Used
+Concatenation of CSV files using pd.concat to create a single DataFrame.
+String parsing using .str to create new columns.
+Applied functions to columns using .apply().
+Groupby for aggregate analysis.
+Visualized results using bar charts and line graphs.
+Added labels and titles to graphs for better clarity.
