@@ -11,7 +11,8 @@ Steps in the Project
    
 Dropped NaN values from the DataFrame.
 Removed rows based on specific conditions.
-Changed data types using functions like to_numeric, to_datetime, and astype.
+Changed data types using functions like to_numeric, to_datetime, and astype.  
+
 2. Data Exploration  
 
 I explored the data to answer the following business questions:
