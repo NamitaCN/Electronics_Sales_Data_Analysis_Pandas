@@ -9,9 +9,9 @@ Steps in the Project
 
 1. Data Cleaning
    
-Dropped NaN values from the DataFrame.
-Removed rows based on specific conditions.
-Changed data types using functions like to_numeric, to_datetime, and astype.  
+-Dropped NaN values from the DataFrame.
+-Removed rows based on specific conditions.
+-Changed data types using functions like to_numeric, to_datetime, and astype.  
 
 2. Data Exploration  
 
