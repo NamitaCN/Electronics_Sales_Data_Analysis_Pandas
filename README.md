@@ -3,13 +3,13 @@ In this project, I used Python Pandas & Python Matplotlib to analyze and answer 
 
 Started by cleaning the data. Tasks during this section include:
 
-Drop NaN values from DataFrame
-Removing rows based on a condition
-Change the type of columns (to_numeric, to_datetime, astype)
+Drop NaN values from DataFrame.
+Removing rows based on a condition.
+Change the type of columns (to_numeric, to_datetime, astype).
 Once I cleaned up the data a bit,  then I moved to the data exploration section. In this section I explored 5 high levels business questions related to the data:
 
 What was the best month for sales? How much was earned that month?
-What city sold the most product?
+Which city sold the most product?
 What time should we display advertisements to maximize the likelihood of customer’s buying product?
 What products are most often sold together?
 What product sold the most? Why do you think it sold the most?
